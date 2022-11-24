@@ -100,7 +100,7 @@ a {
     top:170px;
   }
   .footer {
-    top:2250px;
+    top:2500px;
   }
   .dice {
     padding: 0;
@@ -115,7 +115,7 @@ a {
 
 @media (min-width: 616px) and (max-width: 987px) {
   .footer {
-    top:1050px;
+    top:1250px;
   }
   .dice {
     padding: 0;
