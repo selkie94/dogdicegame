@@ -3,6 +3,7 @@ function readygame() {
   document.getElementById("dice-game").style.visibility = "visible";
   document.getElementById("description").innerHTML = "Time for battle!"
   document.getElementById("battle").innerHTML = "exciting, yes";
+  document.getElementById("battle").style.fontFamily = "Merienda"
 }
 
 function topFunction() {
@@ -23,6 +24,7 @@ function diceGame() {
   document.getElementById("shaking").style.visibility = "hidden";
   document.getElementById("description").style.visibility = "visible";
   document.getElementById("battle").style.visibility = "visible";
+
 
   var playerOne = Math.ceil(Math.random()*6);
   var playerTwo = Math.ceil(Math.random()*6);

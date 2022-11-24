@@ -22,7 +22,7 @@ h2 {
   font-size: 2rem;
 }
 
-h3, p {
+h3, h5, p {
   text-align: center;
   color: #F5F5F5;
 }
@@ -30,6 +30,13 @@ h3, p {
 h3 {
   font-family: 'Merienda', sans-serif;
   font-size: 1.5rem;
+}
+
+h5 {
+  width:65%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-weight: lighter;
 }
 
 a {
@@ -50,7 +57,7 @@ a {
 }
 
 /* Position*/
-.dogpic, .dice, .shakydog {
+.dogpic, .dice, .shakydog, h5 {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -74,14 +81,13 @@ a {
 }
 
 .footer {
-  top:750px;
+  text-align: center;
+  top:800px;
 }
 
 .sociallinks {
-  /* width:7.7%; */
-  width:12%;
   color: #FC5185;
-  padding-left:20px:
+  padding:10px:
 }
 
 .footericon:hover{
@@ -100,31 +106,29 @@ a {
     top:170px;
   }
   .footer {
-    top:2500px;
+    top:2750px;
   }
   .dice {
     padding: 0;
   }
   #player1text, #player2text {
     padding-bottom: 30px;
-  }
-  .sociallinks {
-    width:33%;
   }
 }
 
 @media (min-width: 616px) and (max-width: 987px) {
+  #dice-game {
+    top:350px;
+  }
+
   .footer {
-    top:1700px;
+    top:2200px;
   }
   .dice {
     padding: 0;
   }
   #player1text, #player2text {
     padding-bottom: 30px;
-  }
-  .sociallinks {
-    width:19%;
   }
 }
 
